@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Club de natación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <p class="bnds">Bienvenidos</p>
+
+        <h1 style="color: blue; text-align: center;">Registro Club de natación</h1>
+        <p style="text-align: center; color: red;">Completa el formulario para univerte !!!</p>
+    </header>
+    <div class="form-container">
+
+        <div class="campos">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="edad"> Edad: </label>
+            <input type="number" id="Edad" required>
+
+        </div>
+
+        <div class="opciones">
+            <div>
+
+                <label for="horario">Seleccione un Horario:</label>
+                <select name="horario" id="horario">
+                    <option value="matutino">Matutino</option>
+                    <option value="nocturno">Nocturno</option>
+
+                </select>
+
+            </div>
+
+
+
+            <div>
+                <label for="horario">Seleccione nivel de natacion:</label>
+                <select name="Nivel de natacion" id="nivel-ntc">
+                    <option value="Principiante">Principiante</option>
+                    <option value="Intermedio ">Intermedio </option>
+                    <option value="Avanzado ">Avanzado </option>
+                </select>
+            </div>
+
+            <button type="submit"> Registrarse</button>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+<style>
+    .form-container {
+        width: 50%;
+        margin: auto;
+        background-color: #f0f8ff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+
+
+    }
+</style>
+
+</html>
