@@ -1,54 +1,30 @@
 body {
-    font-family: Courier ;
-    background-color:#ecf0f1 ;
-}
-
-.bnds{
+    font-family: Courier, sans-serif;
+    background-color: #ecf0f1;
     text-align: center;
-    font-size: 20px;
-    
-}
-form {
-display: flex;
-flex-direction: column;
-gap: 10px;
-
+    margin: 0;
+    padding: 0;
 }
 
-input , select {
-    padding: 8px;
-    font-size: medium;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
-    
+h1 {
+    color: blue;
+    text-align: center;
 }
 
-button {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 10px;    
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
-
-
+.subtitulo {
+    color: red;
 }
 
-button:hover{
-    background-color: darkblue;
-    font-size: 24px;
+.form-container {
+    width: 50%;
+    margin: auto;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.campos{
+.campos {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -56,7 +32,58 @@ button:hover{
     gap: 10px;
 }
 
-select{
- gap: 100%;
+input, select {
+    padding: 8px;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
 }
 
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+    font-size: 20px;
+}
+
+.confirmacion-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirmacion-container h1 {
+    color: green;
+}
+
+.confirmacion-container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirmacion-container a:hover {
+    background-color: darkblue;
+}
